@@ -15,9 +15,9 @@
 #define SE second
 #define EL '\n'
 #define GSTYL(i) cout << "Case #" << i << ": "
-#define RP(i, a, n) for (LL i = a; i < (n); i++)
+#define RP(i, a, n) for (LL i = a; i < (LL)(n); i++)
 #define RPI(i, v) for (auto i = (v).begin(); i != (v).end(); i++)
-#define STEP(i, a, n, s) for (LL i = a; i < (n); i += s)
+#define STEP(i, a, n, s) for (LL i = a; i < (LL)(n); i += s)
 #define FAST_CIN()         \
   ios::sync_with_stdio(0); \
   cin.tie(0);              \
