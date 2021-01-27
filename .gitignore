@@ -1,0 +1,6 @@
+.devcontainer
+.DS_Store
+.sh
+.vscode
+in
+out
